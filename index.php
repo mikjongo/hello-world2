@@ -13,10 +13,13 @@ echo(phpversion());
 <body>
 <p>
 stamp:<? echo $ctools->getTimeStamp()?>
+
  &nbsp;<a href="t1.php">t1</a>
 | <a href="search_results.php">search results</a>
     | <a href="phpinfo.php">phpinfo</a>
 </p>
+
+<br>we added this...
 
 <!-- form -->
 <form action = "<?php $_PHP_SELF ?>" method = "POST">
@@ -33,6 +36,7 @@ if(isset($_POST['btn1'])){
     echo('</br>recs written: '.$cgoogle->getRecsWrittenCount());
 }
 ?>
+
 
 </body>
 </html>
