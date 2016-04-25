@@ -19,7 +19,9 @@ stamp:<? echo $ctools->getTimeStamp()?>
     | <a href="phpinfo.php">phpinfo</a>
 </p>
 
-<br>we added this... and this remote at 03-21, local 03-24
+<br>we added this...
+and this remote at 03-21,
+local 03-24
 
 <!-- form -->
 <form action = "<?php $_PHP_SELF ?>" method = "POST">
