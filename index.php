@@ -9,7 +9,7 @@ echo(phpversion());
 
 <html>
 <meta charset="utf-8">
-<title>Search Google...</title>
+<title>Search Google...x</title>
 <body>
 <p>
 stamp:<? echo $ctools->getTimeStamp()?>
