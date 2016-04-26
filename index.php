@@ -21,7 +21,7 @@ stamp:<? echo $ctools->getTimeStamp()?>
 
 <br>we added this...
 and this remote at 03-21,
-local 03-24
+local 03-24, acer 0426:13111
 
 <!-- form -->
 <form action = "<?php $_PHP_SELF ?>" method = "POST">
