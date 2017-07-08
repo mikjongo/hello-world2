@@ -12,7 +12,7 @@ echo(phpversion());
 <title>Search Google...128</title>
 <body>
 <p>
-stamp:<? echo $ctools->getTimeStamp()?>
+    stamp:<? echo $ctools->getTimeStamp()?> <b>tmp12</b>
 
  &nbsp;<a href="t1.php">t1</a>
 | <a href="search_results.php">search results</a>
